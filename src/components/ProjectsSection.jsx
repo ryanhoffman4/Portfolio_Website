@@ -8,7 +8,7 @@ const projects = [
         id:1,
         title: "Python HashMap",
         description: "Two Python Hashmaps, showcasing both Seperate Chaining and Open Addressing",
-        image: "/projects/project1.png",
+        image: "./projects/project1.png",
         tags: ["OSU", "CS 261", "Python"],
         demoURL: "#",
         githubURL: "https://github.com/ryanhoffman4/Python_HashMap.git"
@@ -17,7 +17,7 @@ const projects = [
         id:2,
         title: "Assembly String Parser",
         description: "Opens a file, reads and reverses a string with a delimiter",
-        image: "/projects/project2.png",
+        image: "./projects/project2.png",
         tags: ["OSU", "CS 271", "Assembly"],
         demoURL: "#",
         githubURL: "https://github.com/ryanhoffman4/Assembly_String_Parser.git"
@@ -26,7 +26,7 @@ const projects = [
         id:3,
         title: "MERN Application",
         description: "Implements a front-end client with React, and a backend server/database with Express and MongoDB",
-        image: "/projects/project3.png",
+        image: "./projects/project3.png",
         tags: ["OSU", "CS 290", "Full MERN Stack"],
         demoURL: "#",
         githubURL: "https://github.com/ryanhoffman4/MERN_Application.git"
