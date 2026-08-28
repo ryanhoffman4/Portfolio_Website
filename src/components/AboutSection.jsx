@@ -1,8 +1,8 @@
-import { Code, User, Briefcase } from "lucide-react";
+import { Code, Sigma, Briefcase } from "lucide-react";
 
 export const AboutSection = () => {
 
-    return ( 
+    return (
 
         <section id="about" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
@@ -13,35 +13,22 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Passionate developer and tech creator
+                            Passionate Programmer and Mathematician
                         </h3>
 
                         <p className="text-muted-foreground">
-                            I have lots of great experience in web development, 
-                            and I also like eating bean and cheese burritos.
-                            Crap, man.  Get the hell outta here if you're still 
-                            reading this, this is an old commit, you dingus.
+                                After earning a Bachelor's degree in Mathematics from Washington State University, 
+                            I will graduate with a second Bachelor's in Computer Science in June 2027.  
+                            This webpage is a basic template for showcasing my ongoing projects throughout 
+                            the next school year and beyond.  I hope to use my background in Calculus, 
+                            Linear Algebra and Statistics as a stepping stone into AI and Data Science.
                         </p>
 
                         <p className="text-muted-foreground">
-                            I have lots of great experience in web development, 
-                            and I also like eating bean and cheese burritos.
-                            Crap, man.  Get the hell outta here if you're still 
-                            reading this, this is an old commit, you dingus.
+                                My programming style is methodical and linear, developing an intuition for 
+                            avoiding bugs outright. My ground-up approach to programming grows an ever-deepening
+                            understanding of computer architecture to help detect root causes of errors as they occur.
                         </p>
-
-                        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                            <a href="#contact" className="cosmic-button">
-                                Get in Touch
-                            </a>
-
-                            <a 
-                                href="" 
-                                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-                            >
-                                Download CV
-                            </a>
-                        </div>
                     </div>
 
                     <div className="grid grid-cols-1 gap-6">
@@ -51,9 +38,10 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Web Development </h4>
+                                    <h4 className="font-semibold text-lg"> Programming </h4>
                                     <p className="text-muted-foreground">
-                                        I also like bologna sandwhiches.
+                                        Full stack developer with a ground-up approach,
+                                        striving to understand all components of computers
                                     </p>
                                 </div>
                             </div>
@@ -62,12 +50,13 @@ export const AboutSection = () => {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <User className="h-6 w-6 text-primary" />
+                                    <Sigma className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> UI/UX Design </h4>
+                                    <h4 className="font-semibold text-lg"> Mathematics </h4>
                                     <p className="text-muted-foreground">
-                                        I also like bologna sandwhiches.
+                                        Inspired by theoretical models,
+                                        always focused on projects incorporating linear algebra and calculus
                                     </p>
                                 </div>
                             </div>
@@ -81,7 +70,8 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Project Management </h4>
                                     <p className="text-muted-foreground">
-                                        I also like bologna sandwhiches.
+                                        Organized around teamwork, clear communication, 
+                                        and excellence in the final product
                                     </p>
                                 </div>
                             </div>

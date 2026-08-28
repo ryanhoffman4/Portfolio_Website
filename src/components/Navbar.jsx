@@ -25,6 +25,7 @@ export const Navbar = () => {
     }, []);
 
     return (
+
         <nav 
             className={cn(
                 "fixed w-full z-40 transistion-all duration-300", 
@@ -59,6 +60,7 @@ export const Navbar = () => {
                 > 
                     {isMenuOpen ? <X size={24} /> : <Menu size={24} />} 
                 </button>
+                
                 <div 
                     className={cn(
                         "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",

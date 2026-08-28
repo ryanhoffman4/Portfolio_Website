@@ -8,26 +8,30 @@ import { ProjectsSection } from "../components/ProjectsSection";
 import { Footer } from "../components/Footer";
 
 export const Home = () => {
-    return <div className="min-h-screen bg-background text-forground overflow-x-hidden">
-        {/* Theme Toggle */}
-        <ThemeToggle />
 
-        {/* Background Effects */}
-        <StarBackground />
+    return (
+    
+        <div className="min-h-screen bg-background text-forground overflow-x-hidden">
 
-        {/* Navbar */}
-        <Navbar />
+            {/* Theme Toggle */}
+            <ThemeToggle />
 
-        {/* Main Content */}
-        <main>
-            <HeroSection />
-            <AboutSection />
-            <SkillsSection />
-            <ProjectsSection />
-        </main>
+            {/* Background Effects */}
+            <StarBackground />
 
-        {/* Footer */}
-        <Footer />
+            {/* Navbar */}
+            <Navbar />
 
-    </div>
-}
+            {/* Main Content */}
+            <main>
+                <HeroSection />
+                <AboutSection />
+                <SkillsSection />
+                <ProjectsSection />
+            </main>
+
+            {/* Footer */}
+            <Footer />
+        </div>
+    );
+};

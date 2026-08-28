@@ -6,12 +6,30 @@ import { ArrowRight } from "lucide-react";
 const projects = [
     {
         id:1,
-        title: "SaaS Landing Page",
-        description: "A beautiful landing page app using React and Tailwind.",
+        title: "Python HashMap",
+        description: "Two Python Hashmaps, showcasing both Seperate Chaining and Open Addressing",
         image: "/projects/project1.png",
-        tags: ["React", "TailwindCSS", "Supabase"],
+        tags: ["OSU", "CS 261", "Python"],
         demoURL: "#",
-        githubURL: "#"
+        githubURL: "https://github.com/ryanhoffman4/Python_HashMap.git"
+    },
+    {
+        id:2,
+        title: "Assembly String Parser",
+        description: "Opens a file, reads and reverses a string with a delimiter",
+        image: "/projects/project2.png",
+        tags: ["OSU", "CS 271", "Assembly"],
+        demoURL: "#",
+        githubURL: "https://github.com/ryanhoffman4/Assembly_String_Parser.git"
+    },
+    {
+        id:3,
+        title: "MERN Application",
+        description: "Implements a front-end client with React, and a backend server/database with Express and MongoDB",
+        image: "/projects/project3.png",
+        tags: ["OSU", "CS 290", "Full MERN Stack"],
+        demoURL: "#",
+        githubURL: "https://github.com/ryanhoffman4/MERN_Application.git"
     }
 ];
 
@@ -27,7 +45,7 @@ export const ProjectsSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my projects.
+                    Here are some of my projects:
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
